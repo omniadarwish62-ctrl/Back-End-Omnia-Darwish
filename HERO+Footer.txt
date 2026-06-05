@@ -1,0 +1,202 @@
+/* ========================================= */
+/* BASE OVERRIDES                            */
+/* ========================================= */
+.about-container-parent, 
+.macbook-pro-14-8 {
+  overflow: visible !important;
+}
+
+/* ========================================= */
+/* HERO SECTION & TYPING EFFECTS             */
+/* ========================================= */
+.macbook-pro-14-9-inner {
+  width: 1437px;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 0 11px 69px;
+  box-sizing: border-box;
+  z-index: 12;
+  text-align: center;
+  font-size: 85.8px;
+  color: var(--white);
+  font-family: var(--font-paytone-one);
+}
+
+.prtoflio {
+  height: var(--height-86);
+  width: 820px;
+  left: 55px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 100%;
+  display: inline-block;
+}
+
+/* Prtoflio Blinking Cursor */
+.prtoflio::after {
+  content: '|';
+  color: var(--white);
+  animation: blinkCursor 0.8s step-end infinite;
+  margin-left: 5px;
+}
+
+.omnias-exceptional-product {
+  height: 81px !important;
+  width: 458px !important;
+  position: absolute !important;
+  bottom: -150px !important; 
+  right: 1200px !important; 
+  letter-spacing: -0.01em !important;
+  display: inline-block !important;
+  z-index: 1 !important;
+}
+
+/* Quote Blinking Cursor */
+.omnias-exceptional-product::after {
+  content: '|';
+  color: white; 
+  animation: blinkCursor 0.8s step-end infinite;
+  margin-left: 4px;
+}
+
+@keyframes blinkCursor {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* ========================================= */
+/* CAT ROTATION ANIMATION (HERO)             */
+/* ========================================= */
+.profile-info {
+  position: absolute;
+  top: -33.1px;
+  left: 340px;
+  width: 761px;
+  height: 925.1px;
+  display: flex;
+  align-items: flex-start;
+  isolation: isolate;
+  font-size: 74.3px;
+  color: var(--white);
+  font-family: var(--font-aclonica);
+}
+
+.profile-info-child2 {
+  height: 925.1px;
+  width: 761px;
+  position: relative;
+  object-fit: cover;
+  z-index: 8;
+  left: -1250px;
+  bottom: -20px;
+  animation: rotate360 10s linear infinite; /* Smooth continuous rotation */
+}
+
+@keyframes rotate360 {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* ========================================= */
+/* FOOTER SECTION & GLASSMORPHISM            */
+/* ========================================= */
+.macbook-pro-14-8-wrapper {
+  width: 1507px;
+  height: 1312px;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 0 0 7px;
+  box-sizing: border-box;
+  z-index: 7;
+  text-align: left;
+  font-size: var(--fs-64);
+  color: var(--Gray-25);
+  font-family: var(--font-paytone-one);
+}
+
+.macbook-pro-14-8 {
+  height: 1312px;
+  width: 1512px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 296px 46px 142px 57px;
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+}
+
+.overlay {
+  margin-top: -356px;
+  width: 849px;
+  height: 356px;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 0 0 493px;
+  box-sizing: border-box;
+  z-index: 7;
+}
+
+.background13 {
+  height: var(--height-874);
+  width: var(--width-1399);
+  position: relative;
+  box-shadow: var(--shadow-inner);
+  backdrop-filter: blur(48px); /* Footer Glassmorphism Effect */
+  border-radius: var(--br-60);
+  background-color: var(--color-gray-1200);
+  overflow: hidden;
+}
+
+/* ========================================= */
+/* FOOTER HOVER EFFECTS                      */
+/* ========================================= */
+.component-122 {
+  width: 202px;
+  box-shadow: var(--shadow-inner-1);
+  backdrop-filter: blur(40.5px);
+  border-radius: var(--br-60);
+  background: var(--gradient-2);
+  border: 1px solid var(--color-lavenderblush-200);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10) var(--padding-20);
+  font-size: 25.7px;
+  color: var(--white);
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+  cursor: pointer !important;
+}
+
+/* "Hire me" Lift and Purple Glow */
+.component-122:hover {
+  transform: translateY(-8px) scale(1.05) !important; 
+  box-shadow: 0px 15px 25px rgba(131, 54, 119, 0.6) !important; 
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.component-122:hover .icon-outlined-directions2 {
+  display: block !important;
+}
+
+.icon-outlined-directions2 {
+  height: 42px;
+  width: 42px;
+  position: relative;
+  display: none;
+}
+
+/* Bottom corner floating cat */
+.dc6b5214b5600062734f172c945cf6-icon {
+  width: 577px;
+  height: 540px;
+  position: absolute;
+  margin: 0 !important;
+  right: 466px;
+  bottom: 2722px;
+  object-fit: cover;
+  z-index: 10;
+}

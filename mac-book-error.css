@@ -1,0 +1,401 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-black); 
+}
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; 
+  z-index: 0; /* Keeps it behind everything */
+}
+
+.macbook-pro-14-12-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.macbook-pro-14-12 {
+  width: 1512px;     
+  margin: 0 auto;    
+  
+  /* 🪄 THIS CUTS OFF THE VAST EMPTY SPACE 🪄 */
+  height: 4050px;    /* Shrunk from 6373px! You can adjust this number up or down to perfectly hug your footer */
+  padding: 42px 0 50px 0; /* Removed the 2200px bottom padding and replaced it with a normal 50px */
+  
+  position: relative;
+  background-color: transparent !important;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  isolation: isolate;
+  text-align: left;
+  font-size: var(--fs-20);
+  color: var(--white);
+  font-family: var(--font-wendy-one);
+}
+.sonican-lo-fi-music-loop-senti5 {
+  position: absolute;
+  top: calc(50% - 504.5px);
+  left: calc(50% + 4px);
+  width: var(--width-54);
+  height: var(--height-40);
+  flex-shrink: 0;
+}
+.instance-parent5 {
+  position: absolute;
+  top: 47px;
+  left: 78px;
+  box-shadow: var(--shadow-drop);
+  backdrop-filter: blur(106.9px);
+  border-radius: var(--br-50);
+  background-color: var(--color-gray-2000);
+  width: var(--width-1364);
+  height: var(--height-86);
+  display: none;
+  flex-shrink: 0;
+  font-family: var(--font-wendy-one);
+}
+.home-wrapper59 {
+  position: absolute;
+  top: 12.5px;
+  left: 10px;
+  border-radius: var(--br-60);
+  width: var(--width-137);
+  height: var(--height-61);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-40);
+  box-sizing: border-box;
+}
+.home65 {
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.home-wrapper60 {
+  position: absolute;
+  top: 12.5px;
+  left: 196.7px;
+  border-radius: var(--br-60);
+  width: var(--width-137);
+  height: var(--height-61);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-40);
+  box-sizing: border-box;
+}
+.home-wrapper61 {
+  position: absolute;
+  top: 12.5px;
+  left: 383.5px;
+  border-radius: var(--br-60);
+  width: 148px;
+  height: var(--height-61);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-40);
+  box-sizing: border-box;
+}
+.frame-parent37 {
+  position: absolute;
+  top: 16px;
+  left: 581.2px;
+  width: var(--width-165_6);
+  height: var(--height-54);
+  font-size: var(--fs-24);
+  color: var(--color-snow-100);
+}
+.frame-child32 {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-height: 100%;
+  width: var(--width-56_5);
+}
+.omnia14 {
+  position: absolute;
+  top: 18px;
+  left: 80.6px;
+  letter-spacing: -0.01em;
+  display: inline-block;
+  min-width: var(--min-w-85);
+}
+.home-wrapper62 {
+  position: absolute;
+  top: 12.5px;
+  left: 796.5px;
+  border-radius: var(--br-60);
+  width: 156px;
+  height: var(--height-61);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-40);
+  box-sizing: border-box;
+}
+.home-wrapper63 {
+  position: absolute;
+  top: 12.5px;
+  left: 1002.3px;
+  border-radius: var(--br-60);
+  width: var(--width-149);
+  height: var(--height-61);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-40);
+  box-sizing: border-box;
+}
+.home-wrapper64 {
+  position: absolute;
+  top: 12.5px;
+  left: 1201px;
+  border-radius: var(--br-60);
+  width: var(--width-153);
+  height: var(--height-61);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-40);
+  box-sizing: border-box;
+}
+.layer2 {
+  position: absolute;
+  top: -43.1px;
+  left: -86.7px;
+  width: var(--width-1853_2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 43.1px var(--padding-30) var(--padding-0);
+  box-sizing: border-box;
+  isolation: isolate;
+  background-image: url("./public2/Frame@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  flex-shrink: 0;
+  font-family: var(--font-aclonica);
+}
+.frame6 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  max-width: 1680px;
+  z-index: 0;
+  flex-shrink: 0;
+}
+.frame-child33 {
+  height: 1150px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-black);
+  opacity: 0.69;
+  max-width: var(--max-w-1512);
+}
+.background-parent8 {
+  height: var(--height-94);
+  width: var(--width-1368);
+  margin: 0 !important;
+  position: absolute;
+  top: 85.1px;
+  left: calc(50% - 770.9px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-14) var(--padding-1);
+  box-sizing: border-box;
+  isolation: isolate;
+  gap: 45.3px;
+  max-width: 100%;
+  z-index: 4;
+  flex-shrink: 0;
+}
+.home-wrapper65 {
+  border-radius: var(--br-60);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-40);
+  flex-shrink: 0;
+}
+.home71 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  font-family: inherit;
+  display: none !important;
+}
+.home-wrapper66 {
+  border-radius: var(--br-60);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-40);
+  z-index: 2;
+  flex-shrink: 0;
+}
+.div13 {
+  width: var(--width-28);
+  height: var(--height-48_6);
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-8_6);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.frame-parent38 {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 24.5px);
+  left: calc(50% - 90.1px);
+  display: flex;
+  align-items: center;
+  gap: var(--gap-15_1);
+  z-index: 4;
+  flex-shrink: 0;
+  font-size: var(--fs-24);
+  color: var(--color-gray-100);
+}
+.frame-child34 {
+  height: var(--height-44);
+  width: var(--width-46);
+  position: relative;
+}
+.instance-wrapper9 {
+  height: var(--height-63);
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-4) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.home-wrapper69 {
+  box-shadow: var(--shadow-inner-4);
+  border-radius: var(--br-60);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-40);
+  z-index: 6;
+  flex-shrink: 0;
+}
+.home-wrapper70 {
+  border-radius: var(--br-60);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-40);
+  z-index: 7;
+  flex-shrink: 0;
+}
+/* ======================================================== */
+/* 404 ERROR PAGE IMAGES & ENDLESS SLIDING DOWN ANIMATION   */
+/* ======================================================== */
+
+.c58ec226d3655a0783b83376b261d4-icon {
+  width: 276px;
+  position: absolute;
+  margin: 0 !important;
+  left: 350.7px;
+  border-radius: 495px;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 2;
+  flex-shrink: 0;
+  
+  /* Positions it above the screen to start */
+  top: -300px !important; 
+  /* 8-second continuous falling loop */
+  animation: endlessSlideDown 8s linear infinite; 
+}
+
+.e35c2e0d619c479a6ca5a6d803bebd-icon {
+  width: 389px;
+  position: absolute;
+  margin: 0 !important;
+  left: calc(50% + 15.1px);
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 3;
+  flex-shrink: 0;
+  
+  /* Starts even higher so they don't fall at the exact same time */
+  top: -600px !important; 
+  /* 10-second continuous falling loop */
+  animation: endlessSlideDown 10s linear infinite; 
+}
+.e-r-o {
+  position: absolute;
+  top: 273px;
+  left: calc(50% - 424px);
+  font-size: 324.8px;
+  letter-spacing: -0.01em;
+  line-height: 454px;
+  flex-shrink: 0;
+}
+.o-4 {
+  position: absolute;
+  top: calc(50% - 1300.5px);
+  left: calc(50% - 388px);
+  font-size: 204.2px;
+  letter-spacing: -0.01em;
+  line-height: 285px;
+  flex-shrink: 0;
+}
+/* ======================================================== */
+/* REMOVE THE TOP TOGGLE BUTTON                             */
+/* ======================================================== */
+.sonican-lo-fi-music-loop-senti,
+.sonican-lo-fi-music-loop-senti5 {
+    display: none !important;
+}
+/* ======================================================== */
+/* SAFELY REMOVE THE PROJECT BUTTON                         */
+/* ======================================================== */
+.home-wrapper69 {
+    display: none !important;
+}
+
+@keyframes endlessSlideDown {
+  0% {
+    transform: translateY(0px);
+    opacity: 0; /* Fades in smoothly at the top */
+  }
+  10% {
+    opacity: 1; /* Fully visible as it falls */
+  }
+  90% {
+    opacity: 1; 
+  }
+  100% {
+    /* 2500px pushes it ALL the way to the far bottom of the page */
+    transform: translateY(1000px); 
+    opacity: 0; /* Fades out cleanly before teleporting back to the top */
+  }
+}

@@ -1,0 +1,49 @@
+<section class="ff9c23ccf607c8b6a75fd0e3449a5-parent">
+  <img class="ff9c23ccf607c8b6a75fd0e3449a5-icon2" alt="" src="./public/783ff9c23ccf607c8b6a75fd0e3449a5-1@2x.png" />
+  <img class="frame-child3" loading="lazy" alt="" src="Vector 4.png" />
+  <img class="frame-child4" loading="lazy" alt="" src="Vector 4.png" />
+</section>
+
+<section class="macbook-pro-14-9-inner">
+  <div class="frame-parent3">
+    <header class="background-container">
+      <div class="background5">
+        <div class="iphone-13-13-pro-23">
+          <img class="image-44-icon2" alt="" src="./public/image-44@2x.png" />
+        </div>
+      </div>
+      <div class="instance-wrapper2"><div class="home-wrapper10 nav-glass-btn"><div class="average-ratings">Home</div></div></div>
+      <div class="instance-wrapper3"><div class="home-wrapper10 nav-glass-btn"><div class="average-ratings">About</div></div></div>
+      <div class="home-wrapper18 nav-glass-btn"><div class="average-ratings">Service</div></div>
+      
+      <div class="frame-wrapper">
+        <div class="frame-parent4">
+          <img class="frame-child5" loading="lazy" alt="" src="Ellipse 7 copy.png" />
+          <div class="omnia-wrapper"><div class="omnia5">OMNIA</div></div>
+        </div>
+      </div>
+      
+      <div class="instance-wrapper4"><div class="home-wrapper10 nav-glass-btn"><div class="average-ratings">Resume</div></div></div>
+      <div class="instance-wrapper5"><div class="home-wrapper10 nav-glass-btn"><div class="average-ratings">Project</div></div></div>
+      <div class="home-wrapper21 nav-glass-btn"><div class="average-ratings">Contact</div></div>
+    </header>
+
+    <div class="prtoflio-wrapper">
+      <div class="prtoflio">Prtoflio</div>
+    </div>
+  </div>
+</section>
+
+<section class="about-container-parent">
+  <div class="frame-parent6">
+    <div class="profile-info">
+      <div class="designer">Designer</div>
+      <div class="quote-container">
+        <div class="omnias-exceptional-product">
+          omnia’s Exceptional product design<br />ensure our website’s success.<br />Highly Recommended
+        </div>
+      </div>
+      <img class="profile-info-child2" alt="" src="cat-moon.png" />
+    </div>
+  </div>
+</section>

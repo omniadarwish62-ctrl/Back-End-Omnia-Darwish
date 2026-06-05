@@ -1,0 +1,24 @@
+
+# OS generated files
+.DS_Store # macOS folder settings
+Thumbs.db # Windows image file cache
+Desktop.ini # Windows desktop icon settings
+
+# Editor directories and files
+.vscode/   # Visual Studio Code settings
+.vscode2/  # Visual Studio Code settings (alternate folder)
+.venv/     # Python virtual environment
+.venv2/    # Python virtual environment (alternate folder)
+.idea/   # IntelliJ IDEA settings
+*.swp   # Vim swap files
+*.swo   # Vim swap files
+*.swn   # Vim swap files
+
+# Temporary or cache files
+*.tmp   # Temporary files
+*.temp  # Temporary files
+*.cache   # Cache files
+*.bak   # Backup files
+
+# Others
+*.log   # Log files

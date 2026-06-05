@@ -1,0 +1,1384 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-black); 
+}
+.macbook-pro-14-13 {
+  width: 1512px;     /* This locks it to your exact Figma size */
+  margin: 0 auto;    /* This perfectly centers the whole website on wide screens */
+  
+  height: 2900px;
+  position: relative;
+  background-color: var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 42px var(--padding-0) 2205px;
+  box-sizing: border-box;
+  isolation: isolate;
+  text-align: left;
+  font-size: var(--fs-20);
+  color: var(--white);
+  font-family: var(--font-wendy-one);
+}
+.sonican-lo-fi-music-loop-senti {
+  position: absolute;
+  top: 668px;
+  left: 760px;
+  width: 54px;
+  height: var(--height-40);
+  flex-shrink: 0;
+}
+.details {
+  position: absolute;
+  top: -43.1px;
+  left: -86.7px;
+  width: 1853.2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 43.1px var(--padding-30) 12.1px;
+  box-sizing: border-box;
+  background-image: url("./public/Frame@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  flex-shrink: 0;
+}
+.frame3 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  max-width: 1680px;
+}
+.frame-child2 {
+  height: 1138px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-black);
+  opacity: 0.69;
+  max-width: 1512px;
+  display: none;
+}
+.instance-group {
+  position: absolute;
+  top: 47px;
+  left: 78px;
+  box-shadow: var(--shadow-drop);
+  backdrop-filter: blur(106.9px);
+  border-radius: var(--br-50);
+  background-color: var(--color-gray-1500);
+  width: 1364px;
+  height: var(--height-86);
+  display: none;
+  flex-shrink: 0;
+  font-family: var(--font-wendy-one);
+}
+.home-wrapper10 {
+  position: absolute;
+  top: 12.5px;
+  left: 10px;
+  border-radius: var(--br-60);
+  width: 137px;
+  height: var(--height-61);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-40);
+  box-sizing: border-box;
+}
+.home14 {
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.home-wrapper11 {
+  position: absolute;
+  top: 12.5px;
+  left: 196.7px;
+  border-radius: var(--br-60);
+  width: 137px;
+  height: var(--height-61);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-40);
+  box-sizing: border-box;
+}
+.home-wrapper12 {
+  position: absolute;
+  top: 12.5px;
+  left: 383.5px;
+  border-radius: var(--br-60);
+  width: 148px;
+  height: var(--height-61);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-40);
+  box-sizing: border-box;
+}
+.frame-parent2 {
+  position: absolute;
+  top: 16px;
+  left: 581.2px;
+  width: 165.6px;
+  height: 54px;
+  font-size: var(--fs-24);
+  color: var(--color-snow-100);
+}
+.frame-child3 {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-height: 100%;
+  width: 56.5px;
+}
+.omnia4 {
+  position: absolute;
+  top: 18px;
+  left: 80.6px;
+  letter-spacing: -0.01em;
+  display: inline-block;
+  min-width: 85px;
+}
+.home-wrapper13 {
+  position: absolute;
+  top: 12.5px;
+  left: 796.5px;
+  border-radius: var(--br-60);
+  width: 156px;
+  height: var(--height-61);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-40);
+  box-sizing: border-box;
+}
+.home-wrapper14 {
+  position: absolute;
+  top: 12.5px;
+  left: 1002.3px;
+  border-radius: var(--br-60);
+  width: 149px;
+  height: var(--height-61);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-40);
+  box-sizing: border-box;
+}
+.home-wrapper15 {
+  position: absolute;
+  top: 12.5px;
+  left: 1201px;
+  border-radius: var(--br-60);
+  width: 153px;
+  height: var(--height-61);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-40);
+  box-sizing: border-box;
+}
+.cover2 {
+  position: absolute;
+  bottom: -1556px;
+  left: calc(50% - 767px);
+  background: var(--Linear);
+  width: 100%;
+  height: 3295px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 74.3px;
+  color: var(--Gray-25);
+  font-family: var(--font-paytone-one);
+}
+.ellipse-div {
+  position: absolute;
+  top: -179.84px;
+  left: -62.43px;
+  filter: blur(301.4px);
+  border-radius: var(--br-501);
+  background-color: var(--color-gray-300);
+  width: 1758.6px;
+  height: 2122.5px;
+  transform: rotate(-51deg);
+  transform-origin: 0 0;
+  opacity: 0.7;
+  flex-shrink: 0;
+}
+.ff9c23ccf607c8b6a75fd0e3449a5-icon2 {
+  position: absolute;
+  top: -118.6px;
+  left: -1753.9px;
+  width: 4943.1px;
+  height: 3182.8px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.cover-child2 {
+  position: absolute;
+  top: -77px;
+  left: 0px;
+  background-color: var(--color-gray-2000);
+  width: 1570px;
+  height: 3141px;
+  flex-shrink: 0;
+}
+.cloth-stack-2-icon2 {
+  position: absolute;
+  top: 881.5px;
+  right: -2809.9px;
+  width: 3124.9px;
+  height: 3182.5px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.merged-asset-1-icon2 {
+  position: absolute;
+  bottom: -5794px;
+  left: -1418px;
+  width: 4753px;
+  height: 6918px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.merged-asset-1-child {
+  position: absolute;
+  top: 576.46px;
+  left: 3182.57px;
+  filter: blur(120.6px);
+  border-radius: var(--br-501);
+  background: var(--gradient-1);
+  width: 4576.4px;
+  height: 3848.8px;
+  transform: rotate(-51deg);
+  transform-origin: 0 0;
+}
+.merged-asset-1-item {
+  position: absolute;
+  top: 1176.84px;
+  left: 4121.56px;
+  filter: blur(299.4px);
+  border-radius: var(--br-501);
+  background: var(--gradient-4);
+  width: 2542.3px;
+  height: 1806.4px;
+  transform: rotate(56.6deg);
+  transform-origin: 0 0;
+}
+.noise-icon2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1618.8px;
+  height: 955.7px;
+  object-fit: cover;
+  display: none;
+  mix-blend-mode: overlay;
+  flex-shrink: 0;
+}
+.background5 {
+  position: absolute;
+  top: 497px;
+  left: 65px;
+  box-shadow:
+    0px 5.6px 16.8px #fff inset,
+    0px 44.8px 67.2px #ffcbfc inset,
+    0px 134.4px 179.2px rgba(123, 17, 113, 0.67) inset;
+  backdrop-filter: blur(89.6px);
+  border-radius: 112px;
+  background-color: var(--color-gray-1300);
+  width: 1440px;
+  height: 1061px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.background-row-1 {
+  position: absolute;
+  top: 531px;
+  left: -638px;
+  width: 2782px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 27.2px;
+  flex-shrink: 0;
+}
+.component-7 {
+  height: 359px;
+  flex: 1;
+  backdrop-filter: blur(16.2px);
+  border-radius: 27.8px;
+  background-color: var(--color-gray-1100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24.3px;
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+  gap: 16.2px;
+  min-width: 190px;
+  text-align: left;
+  font-size: 27.2px;
+  color: var(--Gray-25);
+  font-family: var(--font-urbanist);
+}
+.bio-link {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.fawzi-sayed {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.ui-ux-designer {
+  margin: 0;
+  position: relative;
+  font-size: 21.2px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.iconstar-parent {
+  display: flex;
+  align-items: center;
+}
+.iconstar {
+  height: var(--height-37_1);
+  width: var(--width-37_1);
+  position: relative;
+}
+.spacer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  font-family: inherit;
+}
+.consectetur-adipiscing-elit {
+  width: 860.1px;
+  height: 122.9px;
+  position: relative;
+  font-size: 23.2px;
+  letter-spacing: -0.01em;
+  font-family: var(--font-varela-round);
+  color: var(--Gray-50);
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  flex-shrink: 0;
+}
+.vuesaxboldquote-down-icon {
+  width: 148.4px;
+  height: 148.4px;
+  position: absolute;
+  margin: 0 !important;
+  top: 13.9px;
+  left: 744.2px;
+  z-index: 3;
+  flex-shrink: 0;
+}
+.component-9 {
+  flex: 1.0565;
+  display: flex;
+  align-items: flex-start;
+  min-width: 190px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 27.2px;
+  color: var(--Gray-25);
+  font-family: var(--font-urbanist);
+}
+.component-92 {
+  height: 359px;
+  flex: 1;
+  backdrop-filter: blur(16.2px);
+  border-radius: 27.8px;
+  background-color: var(--color-gray-1100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24.3px;
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+  gap: 16.2px;
+}
+.content-area {
+  display: flex;
+  align-items: flex-start;
+  gap: 13.9px;
+  z-index: 0;
+  flex-shrink: 0;
+  text-align: center;
+}
+.client-logo-icon {
+  height: 63.6px;
+  width: 63.6px;
+  position: relative;
+  object-fit: cover;
+}
+.feedback-area {
+  display: flex;
+  align-items: center;
+  gap: 5.8px;
+  z-index: 1;
+  flex-shrink: 0;
+  font-size: 29.8px;
+  font-family: var(--font-paytone-one);
+}
+.vuesaxboldquote-down-icon2 {
+  width: 148.4px;
+  height: 148.4px;
+  position: absolute;
+  margin: 0 !important;
+  top: 13.9px;
+  left: 743.8px;
+  z-index: 3;
+  flex-shrink: 0;
+}
+.vuesaxboldquote-down-icon3 {
+  width: 148.4px;
+  height: 148.4px;
+  position: absolute;
+  margin: 0 !important;
+  top: 13.9px;
+  left: 744.4px;
+  z-index: 3;
+  flex-shrink: 0;
+}
+.banner {
+  position: absolute;
+  top: 218px;
+  left: -277px;
+  width: 2003px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  isolation: isolate;
+  flex-shrink: 0;
+}
+.banner-child {
+  width: 42.6px;
+  height: 44.1px;
+  position: absolute;
+  margin: 0 !important;
+  top: -13.9px;
+  left: calc(50% + 315.5px);
+  z-index: 3;
+  flex-shrink: 0;
+}
+.testimonials-that-speak-to-container {
+  position: relative;
+  letter-spacing: -0.01em;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.my-results {
+  background: var(--Linear);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.vector-icon3 {
+  width: 39.6px;
+  height: 39.4px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -15.4px;
+  left: calc(50% - 381.3px);
+  z-index: 2;
+  flex-shrink: 0;
+}
+.bfc3c650c24d1cc9d5214964303c06-icon {
+  position: absolute;
+  top: 215px;
+  left: 35px;
+  width: 461px;
+  height: 173px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.bea46e46aff3152533e8955d3d114c-icon {
+  position: absolute;
+  top: 173px;
+  left: 943px;
+  width: 590px;
+  height: 590px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.background6 {
+  position: absolute;
+  top: 460px;
+  left: 134px;
+  box-shadow: var(--shadow-inner);
+  backdrop-filter: blur(48px);
+  border-radius: var(--br-60);
+  background-color: var(--color-gray-1300);
+  width: 1257px;
+  height: 652px;
+  overflow: hidden;
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: 61.6px;
+}
+.background-column-0 {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+  width: 651px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  max-width: 100%;
+}
+.i-am-good {
+  margin: 0;
+  width: 100%;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 627px;
+}
+.skills-in-figma {
+  align-self: stretch;
+  position: relative;
+  font-size: 29.1px;
+  font-family: var(--font-aclonica);
+}
+.e5aaa3b756d75f60196c853f1fa1f5-icon {
+  position: absolute;
+  top: 73px;
+  left: 689px;
+  width: 567.8px;
+  height: var(--height-579);
+  object-fit: cover;
+}
+.background-container {
+  position: absolute;
+  top: 42px;
+  left: 69px;
+  width: var(--width-1368);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-14) var(--padding-1) 17px;
+  box-sizing: border-box;
+  isolation: isolate;
+  gap: 45.3px;
+  max-width: 100%;
+  flex-shrink: 0;
+  font-family: var(--font-aclonica);
+}
+.background7 {
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  box-shadow: var(--shadow-inner-3);
+  backdrop-filter: blur(70px);
+  border-radius: 120px;
+  background-color: var(--color-plum-600);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+  z-index: 0;
+  flex-shrink: 0;
+}
+.iphone-13-13-pro-23 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.iphone-13-13-pro-24 {
+
+  height: 112px;
+  flex: 1;
+
+  position: relative;
+  box-shadow: var(--shadow-drop-1);
+  backdrop-filter: blur(95.7px);
+  border-radius: var(--br-40);
+  background: var(--gradient-3);
+  border: 3px solid transparent;
+  box-sizing: border-box;
+  overflow: hidden;
+  max-width: 100%;
+
+}
+.image-44-icon2 {
+
+  position: absolute;
+  top: 396px;
+
+  left: 195px;
+  width: 249px;
+  height: 166px;
+  object-fit: cover;
+  display: none;
+  flex-shrink: 0;
+}
+.navbar2 {
+
+  position: absolute;
+  height: 70.98%;
+  width: 86.93%;
+  top: 3.13%;
+
+  right: 11.02%;
+  bottom: 25.89%;
+
+  left: 2.05%;
+  display: none;
+  flex-shrink: 0;
+}
+.heart-fill-icon2 {
+
+  position: absolute;
+  height: 4.03%;
+  width: 7.08%;
+  top: 0%;
+  right: 0%;
+  bottom: 95.97%;
+  left: 92.92%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.arrow-left-line2 {
+
+  position: absolute;
+  top: 55.5px;
+  left: 0px;
+  width: var(--width-24);
+  height: var(--height-24);
+  overflow: hidden;
+}
+.group2 {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-01);
+  background-color: transparent;
+
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+  top: 0%;
+  right: -25%;
+  bottom: -8.33%;
+  left: 0%;
+  flex-shrink: 0;
+}
+.vector-icon4 {
+
+  position: absolute;
+  height: 92.31%;
+  width: 80%;
+  top: 0%;
+  right: 20%;
+  bottom: 7.69%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon5 {
+
+  position: absolute;
+  height: 60%;
+  width: 53.33%;
+  top: 16.15%;
+  right: 33.33%;
+  bottom: 23.85%;
+  left: 13.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div2 {
+
+  position: absolute;
+  top: 15.38%;
+  left: 30%;
+  font-size: 17px;
+
+  letter-spacing: -0.41px;
+  line-height: var(--lh-22);
+  font-weight: 600;
+  font-family: var(--font-aclonica);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 21px;
+
+}
+
+.nav-links {
+  height: var(--height-63);
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-4) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.home-wrapper16 {
+  border-radius: var(--br-60);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-40);
+}
+.home20 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  font-family: inherit;
+  cursor: pointer; /* <-- THIS IS THE MAGIC UX LINE */
+}
+.home-wrapper17 {
+  border-radius: var(--br-60);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-40);
+  z-index: 2;
+  flex-shrink: 0;
+}
+.nav-links2 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  max-width: 349.5px;
+  flex-shrink: 0;
+}
+.frame-parent7 {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 24.5px);
+  left: calc(50% - 90.1px);
+  display: flex;
+  align-items: center;
+  gap: 15.1px;
+  z-index: 4;
+  flex-shrink: 0;
+  font-size: var(--fs-24);
+  color: var(--color-gray-100);
+}
+.frame-child6 {
+  height: var(--height-44);
+  width: 46px;
+  position: relative;
+}
+.nav-links3 {
+  height: var(--height-63);
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-1) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.home-wrapper20 {
+  border-radius: var(--br-60);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-40);
+  z-index: 6;
+  flex-shrink: 0;
+}
+.home-wrapper21 {
+  border-radius: var(--br-60);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20) var(--padding-40);
+  z-index: 7;
+  flex-shrink: 0;
+}
+.about-my-skills {
+  margin: 0;
+  position: absolute;
+  top: 275px;
+  left: 517px;
+  font-size: var(--fs-64);
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 489px;
+  flex-shrink: 0;
+}
+.about-my-skills::after {
+  content: '|';
+  color: white; 
+  animation: blinkCursor 0.8s step-end infinite;
+  margin-left: 5px;
+}
+
+/* (If you don't already have this keyframe from earlier, keep it here) */
+@keyframes blinkCursor {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.frame-parent8 {
+  position: absolute;
+  top: 940px;
+  left: 216px;
+  width: 476px;
+  display: flex;
+  align-items: flex-start;
+  gap: 13.9px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frame-parent9 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1.5px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  gap: 15.1px;
+  max-width: 100%;
+}
+.frame-wrapper {
+  height: 74.4px;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-3) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.frame-child7 {
+  height: 74.4px;
+  width: 79.3px;
+  position: relative;
+  object-fit: cover;
+}
+.adobe-premiere-pro-cc-iconsvg {
+  width: 76px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-wrapper2 {
+  height: 74.4px;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-3) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.frame-child8 {
+  height: 74.4px;
+  width: 94.3px;
+  position: relative;
+  object-fit: cover;
+}
+.frame-icon2 {
+  height: 74px;
+  width: 86px;
+  position: relative;
+  object-fit: cover;
+}
+.download-3-1 {
+  width: 75px;
+  position: relative;
+  border-radius: 13.9px;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+
+@media screen and (max-width: 450px) {
+  .macbook-pro-14-13 {
+    height: auto;
+    min-height: 2832px;
+  }
+
+
+  .omnia4 {
+    font-size: var(--fs-19);
+  }
+
+
+  .testimonials-that-speak-to-container {
+    font-size: 45px;
+  }
+
+
+  .i-am-good {
+    font-size: 37px;
+  }
+
+
+  .skills-in-figma {
+    font-size: 23px;
+  }
+
+
+  .about-my-skills {
+    font-size: 38px;
+  }
+
+
+  .frame-parent8 {
+    flex-wrap: wrap;
+  }
+
+
+  .frame-parent9 {
+    flex-wrap: wrap;
+  }
+}
+.your-section-class {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0;
+}
+/* === Hero container: match the reference glass bar === */
+.iphone-13-13-pro-24 {
+  position: relative !important;
+  height: 90px !important;
+  box-shadow: 0px 1.2px 29.9px rgba(69, 43, 124, 0.1);
+  backdrop-filter: blur(95.7px);
+  -webkit-backdrop-filter: blur(95.7px);
+  border-radius: 40px;
+  background: linear-gradient(
+        86.16deg,
+        rgba(111, 107, 107, 0.49),
+        rgba(6, 4, 4, 0.05)
+      )
+      padding-box,
+    linear-gradient(
+        155.31deg,
+        rgba(255, 255, 255, 0.637),
+        rgba(255, 255, 255, 0) 35.26%,
+        rgba(255, 255, 255, 0) 64.69%,
+        rgba(255, 255, 255, 0.54)
+      )
+      border-box;
+  border: 5px solid transparent;
+  overflow: visible !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+
+/* hide any leftover Figma artifacts inside this container */
+.iphone-13-13-pro-24 .image-44-icon2,
+.iphone-13-13-pro-24 .navbar2 { display: none !important; }
+
+/* === Nav pill effect applied to your nav wrappers ===
+   Targets the nav wrappers already present in the page:
+   .home-wrapper4, .home-wrapper5, .home-wrapper8, .home-wrapper9,
+   and the instance wrappers used inside the header layout. */
+.home-wrapper4,
+.home-wrapper5,
+.home-wrapper8,
+.home-wrapper9,
+.instance-container .home-wrapper4,
+.instance-frame .home-wrapper4 {
+  position: relative !important;
+  overflow: visible !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 40px !important;
+  padding: 0 22px !important;
+  border-radius: 40px !important;
+  background: transparent !important;
+  z-index: 60 !important;
+}
+
+/* ensure text sits above the glass pill */
+.home-wrapper4 > .home8,
+.home-wrapper5 > .home8,
+.home-wrapper8 > .home8,
+.home-wrapper9 > .home8,
+.instance-container .home-wrapper4 > .home8,
+.instance-frame .home-wrapper4 > .home8 {
+  position: relative !important;
+  z-index: 62 !important;
+  margin: 0 !important;
+  color: #ffffff !important;
+  font-size: 18px !important;
+}
+
+/* Hidden glass pill (exact look from reference) */
+.home-wrapper4::before,
+.home-wrapper5::before,
+.home-wrapper8::before,
+.home-wrapper9::before,
+.instance-container .home-wrapper4::before,
+.instance-frame .home-wrapper4::before {
+  content: "";
+  position: absolute;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) scale(0.95);
+  opacity: 0;
+  pointer-events: none;
+
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 40px !important;
+
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  transition: all 0.25s ease-out;
+  z-index: 61;
+}
+/* ======================================================== */
+/* DARK THEME FOR TESTIMONIAL CARDS                         */
+/* ======================================================== */
+
+/* Target both the testimonial cards (component-7 and component-92) */
+.component-7, 
+.component-92 {
+    /* Change the light gray to a dark, semi-transparent black */
+    background-color: rgba(0, 0, 0, 0.6) !important; 
+    
+    /* Optional: Add a subtle border to define the shape against the dark background */
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Ensure the text remains readable against the new dark background */
+.consectetur-adipiscing-elit {
+    color: var(--Gray-25) !important; /* Lighter text for better contrast */
+}
+
+/* ======================================================== */
+/* DARK THEME FOR MAIN BACKGROUND CONTAINERS                */
+/* ======================================================== */
+
+
+.cover-child2  {
+    /* Set to a deep, dark semi-transparent black for a premium look */
+    background-color: rgba(0, 0, 0, 0.85) !important;
+    
+    /* Optional: Slight border to keep the container defined against the black background */
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+/*FiXED*/
+
+/* ======================================================== */
+/* PREMIUM FOGGY GLASS HOVER EFFECT                         */
+/* ======================================================== */
+
+/* 1. Ensure the buttons allow the shadow to bleed out */
+.home-wrapper16, 
+.home-wrapper17, 
+.home-wrapper20, 
+.home-wrapper21 {
+    position: relative !important;
+    overflow: visible !important; /* Prevents shadow cropping */
+    cursor: pointer !important;
+    z-index: 10 !important;
+}
+
+/* 2. The Glass Pill Structure */
+.home-wrapper16::before, 
+.home-wrapper17::before, 
+.home-wrapper20::before, 
+.home-wrapper21::before {
+    content: "";
+    position: absolute;
+    left: 50% !important; 
+    top: 50% !important;
+    
+    /* Dimensions & Shape */
+    width: 200px !important; 
+    height: 45px !important;    
+    border-radius: 60px !important;
+    
+    transform: translate(-50%, -50%) scale(0.8);
+    opacity: 0; 
+    pointer-events: none;
+    
+    /* Foggy Glass Texture */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.05));
+    border: 1.5px solid rgba(255, 255, 255, 0.4) !important; 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+    /* Animation Physics */
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    z-index: 1; 
+}
+
+/* 3. The Trigger: Double-Ring + Shadow Effect */
+.home-wrapper16:hover::before, 
+.home-wrapper16.active::before,
+.home-wrapper17:hover::before, 
+.home-wrapper17.active::before,
+.home-wrapper20:hover::before, 
+.home-wrapper20.active::before,
+.home-wrapper21:hover::before, 
+.home-wrapper21.active::before {
+    opacity: 60%; 
+    transform: translate(-50%, -50%) scale(0.8); 
+    
+    /* Double-Ring + Glow Configuration */
+    box-shadow: 
+        /* A) Dark outer ring */
+        0 0 0 15px rgba(103, 22, 110, 0.15), 
+        
+        /* B) 3D Raised edge */
+        0px 5px 15px 10px rgba(48, 43, 43, 0.6), 
+        
+        /* C) Massive Glow */
+        0px 15px 40px 5px rgba(131, 54, 119, 0.1), 
+        0px 0px 60px 5px rgba(131, 54, 119, 0.6) !important; 
+}
+
+.home14 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  font-family: inherit;
+  cursor: pointer; /* <-- THIS IS THE MAGIC UX LINE */
+}
+/* 4. Ensure Text stays on top of the glass */
+.home-wrapper16 .home10, 
+.home-wrapper17 .home10, 
+.home-wrapper20 .home10, 
+.home-wrapper21 .home10 {
+    position: relative !important;
+    z-index: 10 !important;
+}
+
+/* ======================================================== */
+/* VIDEO BACKGROUND                                         */
+/* ======================================================== */
+
+/* This targets both HOVER and the JS-applied ACTIVE class */
+/* ======================================================== */
+/* BACKGROUND VIDEO FIX                                     */
+/* ======================================================== */
+.background-video {
+  position: fixed; /* Fixes the video to the viewport */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* Keeps aspect ratio while filling screen */
+  z-index: -1;       /* Ensures it stays behind your content */
+}
+
+/* Force transparency so video shows through */
+body, 
+.macbook-pro-14-13 {
+  background-color: transparent !important;
+}
+
+/* Ensure the main container doesn't have a background color overriding the video */
+.cover2 {
+    background-color: transparent !important;
+}
+/* ======================================================== */
+/* MAKE TESTIMONIAL & SKILLS BOXES FULLY TRANSPARENT        */
+/* ======================================================== */
+
+/* ======================================================== */
+/* AGGRESSIVE CLEAR: WIPE ALL BACKGROUNDS AND GLOWS         */
+/* ======================================================== */
+
+/* Target the specific background boxes and the main cover container */
+
+.cover2,
+.component-7,
+.component-92 {
+    /* Nuke every possible background setting */
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    
+    /* Remove the purple/pink glows */
+    box-shadow: none !important; 
+    
+    /* Keep the shape/border subtle */
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Also ensure the main cover itself is transparent */
+.macbook-pro-14-13 .cover2 {
+    background: transparent !important;
+}
+/* ======================================================== */
+/* CONSECUTIVE CHARACTER SHINE EFFECT                       */
+/* ======================================================== */
+
+.i-am-good {
+    display: inline-block; /* Keeps the sentence together */
+}
+
+/* 1. The default state for each letter */
+.i-am-good span {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.4); /* Dimmed so the shine stands out */
+    transition: transform 0.1s ease;
+    
+    /* 3s is the total loop time. Change it to make the pause between waves longer or shorter */
+    animation: letterShine 3s infinite; 
+}
+
+/* 2. The Animation Keyframes */
+@keyframes letterShine {
+    0%, 20%, 100% {
+        color: rgba(255, 255, 255, 0.4);
+        text-shadow: none;
+        transform: scale(1);
+    }
+    10% {
+        /* The peak of the shine */
+        color: #ffffff; 
+        text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8), 
+                     0px 0px 30px rgba(184, 52, 171, 0.6); /* Purple/Pink magical glow */
+        transform: scale(1.1); /* A subtle pop forward */
+    }
+}
+
+/* ======================================================== */
+/* CONTINUOUS STAGGERED ICON WAVE (CSS ONLY)                */
+/* ======================================================== */
+
+/* 1. Apply the bouncing animation to ALL your specific icons */
+
+.vector-icon3,
+.frame-child7,
+.adobe-premiere-pro-cc-iconsvg,
+.frame-child8,
+.frame-icon2,
+.download-3-1 {
+    /* 3s is the total loop time */
+    animation: iconPulse 5s infinite;
+}
+
+/* 2. Stagger the start times to create the "wave" effect */
+
+.frame-child7                  { animation-delay: 0.0s; }
+.adobe-premiere-pro-cc-iconsvg { animation-delay: 0.2s; }
+.frame-child8                  { animation-delay: 0.4s; }
+.frame-icon2                   { animation-delay: 0.6s; }
+.download-3-1                  { animation-delay: 0.8s; }
+.vector-icon3                  { animation-delay: 1.0s; }
+
+/* 3. The physics of the bounce */
+@keyframes iconPulse {
+    0%, 20%, 100% {
+        transform: translateY(0) scale(1);
+        filter: none;
+    }
+    10% {
+        /* The peak of the bounce */
+        transform: translateY(-15px) scale(1.15); 
+        
+        /* The glowing shadow */
+        filter: drop-shadow(0px 15px 25px rgba(184, 52, 171, 0.6));
+    }
+}
+/* ======================================================== */
+/* ENDLESS SMART ANIMATION SLIDE (TESTIMONIALS)             */
+/* ======================================================== */
+
+.background-row-1 {
+  /* 1. Override the old fixed width and wrapping */
+  flex-wrap: nowrap !important;
+  width: max-content !important; 
+  left: 0 !important; /* Resets your previous -638px offset */
+  
+  /* 2. Apply the animation */
+  /* 20s is the speed. Increase to 30s to make it slower, decrease to 10s for faster */
+  animation: endlessSlide 10s linear infinite;
+}
+
+/* 3. Pro-UI Touch: Pause the slide when the user hovers to read a review! */
+.background-row-1:hover {
+  animation-play-state: paused;
+}
+
+/* 4. The Animation Physics */
+@keyframes endlessSlide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* Because we duplicated the cards, translating by exactly -50% 
+       slides the first set perfectly out of view as the second set takes its place, 
+       creating a flawless invisible loop! */
+    transform: translateX(-50%);
+  }
+}
+
+/* ======================================================== */
+/* 20-DEGREE DIAGONAL FLOATING EFFECT                       */
+/* ======================================================== */
+
+.banner-child {
+    /* 4s is the time it takes to complete one full loop. */
+    /* ease-in-out makes it smoothly slow down before turning around! */
+    animation: diagonalFloat 1s ease-in-out infinite;
+}
+
+@keyframes diagonalFloat {
+    0%, 100% {
+        /* Start and end perfectly in place */
+        transform: translate(0px, 0px);
+    }
+    50% {
+        /* The Magic Math: 
+           Moving UP by 20px and RIGHT by 7px creates a ~19.3 degree angle off the vertical!
+           If you want the motion to be larger, just double both numbers: translate(14px, -40px)
+        */
+        transform: translate(7px, -20px);
+    }
+}
